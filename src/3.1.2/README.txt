@@ -2,7 +2,7 @@ BASIC NORMAL DUNGEON SIMULATOR
 
 Steps:
 1. Download the .zip file and un-archive it.
-2. Open up Terminal, go to the directory, and type "javac *.java" (without the quotes). This compiles the Java programs.
+2. Open up the program called Terminal, and go to the directory.
 3. I built a few teams and dungeons already. Try playing one of those first. Type one of the following into Terminal: "java game < game-adk-supers", "java game < game-bastet-ooh", "java game < game-horus-ooh".
 4. If you want to build your own teams and dungeons, you can do one of the following:
 	4.1. Type "java game", and the program will start asking for input. Look at one of the input files I made (such as "game-adk-supers") to get an idea of how the input works.
@@ -10,7 +10,7 @@ Steps:
 	4.3. When you finish with your input, the program will output a "script" of everything you input. Look through the script to see if anything went wrong. (For example, it is easy to miss an "end" and mess up the input.) You can also copy and save the script if you want to use it again later.
 
 Files:
-	*.java, *.class: Java program files. You don't need to modify them.
+	*.java, *.class: Java program files. Feel free to look at them, but modifying them might mess up the program.
 	game-*: Input files that I created, that are ready for use. You should look at these files to familiarize yourself with the input.
 	in*: Input files that I made for testing. Feel free to ignore them.
 	team-*: The team portion of some input file. Feel free to ignore them.
@@ -30,9 +30,8 @@ Notes:
 	3.1. Only normal dungeons are currently available. No enemy skill mechanics have been implemented.
 	3.2. Currently, dungeons have no randomness. That is, all monsters are pre-determined in the input, and their cooldowns are exactly their maximum cooldown (instead of cooldown +/- 1). I still need to figure out a clean way to determine which monsters to select at random on each floor.
 	3.3. No awoken skills have been implemented yet. I will probably get to this next, so that this program can effectively simulate normal dungeons.
-	3.4. Moving the orb with a mouse is probably harder than with a finger. If you want more orb movement time, then open up game.java and change the variable MOVEMENT_TIME (currently set at 4000) to however many milliseconds of time you want. YOU MUST RUN "javac *.java" AGAIN TO RE-COMPILE THE JAVA CODE.
-	3.5. Although possible, it is currently very difficult to do diagonal orb movement. I plan to reduce the precision required for diagonals.
-	3.6. A lot of leader skills have not yet been implemented. Currently, only ATK (not HP or RCV) is modified by leader skills, so spike/rainbow/combo leader skills should work. (If your leader skills modify HP/RCV, then as a temporary fix, you can adjust each team member's HP and RCV directly in the input.)
-	3.7. A lot of active skills have not yet been implemented. Currently, the only ones available are damage skills (i.e. ripper dragons), fixed-damage skills (i.e. Ra), gravity skills (i.e. Hera, Zeus), orb-changes, poison, and delay.
-	3.8. The auto-targeting algorithm may not be completely accurate. Currently, it first looks for enemies that are weak to the attack type. If there are multiple such enemies, then it picks the one with the lowest current hp. I will fix this when I know the exact targeting algorithm; it should be a pretty easy fix.
-	3.9. Damage rounding might be off, as well. Since I always cast doubles into ints, all damages are rounded down to the nearest integer. I plan to fix this later, but for now, this error should hardly be a problem.
+	3.4. Although possible, it is currently very difficult to do diagonal orb movement. I plan to reduce the precision required for diagonals.
+	3.5. A lot of leader skills have not yet been implemented. Currently, only ATK (not HP or RCV) is modified by leader skills, so spike/rainbow/combo leader skills should work. (If your leader skills modify HP/RCV, then as a temporary fix, you can adjust each team member's HP and RCV directly in the input.)
+	3.6. A lot of active skills have not yet been implemented. Currently, the only ones available are damage skills (i.e. ripper dragons), fixed-damage skills (i.e. Ra), gravity skills (i.e. Hera, Zeus), orb-changes, poison, and delay.
+	3.7. The auto-targeting algorithm may not be completely accurate. Currently, it first looks for enemies that are weak to the attack type. If there are multiple such enemies, then it picks the one with the lowest current hp. I will fix this when I know the exact targeting algorithm; it should be a pretty easy fix.
+	3.8. Damage rounding might be off, as well. Since I always cast doubles into ints, all damages are rounded down to the nearest integer. I plan to fix this later, but for now, this error should hardly be a problem.
