@@ -1,0 +1,33 @@
+team
+	members
+		name
+			horus
+		hp
+			100
+		atk
+			10
+		rcv
+			10
+		skill
+			cd
+				3
+			end
+		leaderskill
+			options colors RBGL multiplier 4 end
+			options colors RBGD multiplier 4 end
+			options colors RBLD multiplier 4 end
+			options colors RGLD multiplier 4 end
+			options colors BGLD multiplier 4 end
+			end
+		end
+	members name bubblie attr B end
+	members name woodsie attr G end
+	members name shynee attr L end
+	end
+monsters
+	hp
+		1
+	atk
+		1
+	end
+end

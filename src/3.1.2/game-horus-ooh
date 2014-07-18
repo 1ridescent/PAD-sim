@@ -1,0 +1,165 @@
+team
+	members
+		name
+			F/L-Horus
+		attr
+			RL
+		hp
+			2961
+		atk
+			1857
+		rcv
+			278
+		skill
+			name
+				Fire-Orb-Enhance
+			cd
+				13
+			end
+		leaderskill
+			options
+				colors
+					RBGL
+				multiplier
+					4.0
+				end
+			options
+				colors
+					RBGD
+				multiplier
+					4.0
+				end
+			options
+				colors
+					RBLD
+				multiplier
+					4.0
+				end
+			options
+				colors
+					RGLD
+				multiplier
+					4.0
+				end
+			options
+				colors
+					BGLD
+				multiplier
+					4.0
+				end
+			options
+				colors
+					RBGLD
+				multiplier
+					5.0
+				end
+			end
+		end
+	members
+		name
+			Valkyrie
+		attr
+			LG
+		hp
+			2347
+		atk
+			1146
+		rcv
+			607
+		skill
+			name
+				Atk-Stance-L
+			orb_change_from
+				H
+			orb_change_to
+				L
+			cd
+				8
+			end
+		end
+	members
+		name Duke-Vampire attr DB hp 2613 atk 1162 rcv 394
+		skill name Atk-Stance-D orb_change_from H orb_change_to D cd 8 end
+		end
+	members
+		name Siren attr BB hp 1714 atk 1017 rcv 752
+		skill name Guard-Stance-B orb_change_from F orb_change_to H cd 0 end
+		end
+	members
+		name Echidna attr R hp 894 atk 699 rcv 527
+		skill name Menace delay 3 cd 13 end
+		end
+	members
+		name F/F-Horus attr RR hp 3275 atk 1284 rcv 618
+		skill name Fire-Orb-Enhance cd 15 end
+		leaderskill
+			options colors RBGL multiplier 4 end
+			options colors RBGD multiplier 4 end
+			options colors RBLD multiplier 4 end
+			options colors RGLD multiplier 4 end
+			options colors BGLD multiplier 4 end
+			options colors RBGLD multiplier 4.5 end
+			end
+		end
+	end
+dungeon
+	floors
+		name 1F
+		monsters name Sapphire-Carbuncle attr B atk 3120 cd 2 hp 9450 def 140 end
+		monsters name Marine-Goblin attr B atk 4590 cd 4 hp 16800 def 140 end
+		end
+	floors
+		name 2F
+		monsters name Ice-Ogre attr B atk 7837 cd 4 hp 35506 def 0 end
+		monsters name Frost-Devil attr B atk 2002 cd 1 hp 10951 def 840 end
+		end
+	floors
+		name 3F
+		monsters name Sapphire-Carbuncle attr B atk 3120 cd 2 hp 9450 def 140 end
+		monsters name Marine-Goblin attr B atk 4590 cd 4 hp 16800 def 140 end
+		monsters name Marine-Goblin attr B atk 4590 cd 4 hp 16800 def 140 end
+		monsters name Frost-Devil attr B atk 2002 cd 1 hp 10951 def 840 end
+		end
+	floors
+		name 4F
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		monsters name Aqua-Knight attr B atk 2858 cd 2 hp 14031 def 162 end
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		end
+	floors
+		name 5F
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		monsters name Frost-Devil attr B atk 2002 cd 1 hp 10951 def 840 end
+		monsters name White-Knight attr L atk 3012 cd 2 hp 14887 def 162 end
+		monsters name Aqua-Knight attr B atk 2858 cd 2 hp 14031 def 162 end
+		end
+	floors
+		name 6F
+		monsters name Ice-Ogre attr B atk 7837 cd 4 hp 35506 def 0 end
+		monsters name Ice-Ogre attr B atk 7837 cd 4 hp 35506 def 0 end
+		end
+	floors
+		name 7F
+		monsters name Aqua-Knight attr B atk 2858 cd 2 hp 14031 def 162 end
+		monsters name Sapphire-Carbuncle attr B atk 3120 cd 2 hp 9450 def 140 end
+		monsters name Sapphire-Carbuncle attr B atk 3120 cd 2 hp 9450 def 140 end
+		monsters name Frost-Devil attr B atk 2002 cd 1 hp 10951 def 840 end
+		end
+	floors
+		name 8F
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		monsters name White-Knight attr L atk 3012 cd 2 hp 14887 def 162 end
+		monsters name Marine-Goblin attr B atk 4590 cd 4 hp 16800 def 140 end
+		end
+	floors
+		name 9F
+		monsters name Mercury-Light-Carbuncle attr B atk 6708 cd 2 hp 223056 def 600 end
+		monsters name Sunlight-Carbuncle attr L atk 7125 cd 2 hp 250833 def 600 end
+		end
+	floors
+		name 10F
+		monsters name Neptune attr B atk 25440 cd 4 hp 61244 def 96000 end
+		end
+	end
+end

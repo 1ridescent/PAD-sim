@@ -1,0 +1,45 @@
+team
+	members
+		name
+			lil-red-dragon
+		hp
+			100
+		atk
+			50
+		rcv
+			10
+		skill
+			name
+				heat-ball
+			atk_damage
+				100
+			atk_attr
+				R
+			cd
+				3
+			end
+		end
+	end
+dungeon
+	floors
+		name
+			1F
+		monsters
+			hp
+				100
+			atk
+				10
+			end
+		end
+	floors
+		name
+			2F
+		monsters
+			hp
+				200
+			atk
+				20
+			end
+		end
+	end
+end

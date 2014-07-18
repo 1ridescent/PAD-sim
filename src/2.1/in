@@ -1,0 +1,21 @@
+team
+	members
+		hp
+			100
+		atk
+			50
+		rcv
+			10
+		skill
+			cd
+				3
+			end
+		end
+	end
+monsters
+	hp
+		1000
+	atk
+		50
+	end
+end

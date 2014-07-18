@@ -1,0 +1,254 @@
+team
+	members
+		name
+			Bastet
+		attr
+			GL
+		type
+			GH
+		hp
+			2439
+		atk
+			990
+		rcv
+			592
+		skill
+			name
+				Spread-Cats
+			(skill-not-implemented-yet)
+			cd
+				13
+			end
+		leaderskill
+			options
+				num_combos
+					4
+				multiplier
+					2.5
+				end
+			options
+				num_combos
+					5
+				multiplier
+					3.0
+				end
+			options
+				num_combos
+					6
+				multiplier
+					3.5
+				end
+			options
+				num_combos
+					7
+				multiplier
+					4.0
+				end
+			end
+		end
+	members
+		name
+			Valkyrie
+		attr
+			LG
+		type
+			H
+		hp
+			2347
+		atk
+			1146
+		rcv
+			607
+		skill
+			name
+				Atk-Stance-L
+			orb_change_from
+				H
+			orb_change_to
+				L
+			cd
+				8
+			end
+		end
+	members
+		name
+			Tornado-Holy-Dragon
+		attr
+			LG
+		type
+			DH
+		hp
+			1866
+		atk
+			1138
+		rcv
+			263
+		skill
+			name
+				Holy-Ball
+			atk_damage
+				20000
+			atk_attr
+				L
+			orb_change_from
+				B
+			orb_change_to
+				L
+			cd
+				15
+			end
+		end
+	members
+		name
+			Angelion
+		attr
+			LG
+		type
+			DH
+		hp
+			1725
+		atk
+			639
+		rcv
+			430
+		skill
+			name
+				Guard-Stance-L
+			orb_change_from
+				D
+			orb_change_to
+				H
+			cd
+				5
+			end
+		end
+	members
+		name
+			King-Shynee
+		attr
+			L
+		type
+			H
+		hp
+			871
+		atk
+			532
+		rcv
+			156
+		skill
+			name
+				Rcv-Enhance
+			(skill-not-implemented-yet)
+			cd
+				17
+			end
+		end
+	members
+		name
+			Bastet
+		attr
+			GL
+		type
+			GH
+		hp
+			3040
+		atk
+			1132
+		rcv
+			688
+		skill
+			name
+				Spread-Cats
+			(skill-not-implemented-yet)
+			cd
+				12
+			end
+		leaderskill
+			options
+				num_combos
+					4
+				multiplier
+					2.5
+				end
+			options
+				num_combos
+					5
+				multiplier
+					3.0
+				end
+			options
+				num_combos
+					6
+				multiplier
+					3.5
+				end
+			options
+				num_combos
+					7
+				multiplier
+					4.0
+				end
+			end
+		end
+	end
+dungeon
+	floors
+		name 1F
+		monsters name Sapphire-Carbuncle attr B atk 3120 cd 2 hp 9450 def 140 end
+		monsters name Marine-Goblin attr B atk 4590 cd 4 hp 16800 def 140 end
+		end
+	floors
+		name 2F
+		monsters name Ice-Ogre attr B atk 7837 cd 4 hp 35506 def 0 end
+		monsters name Frost-Devil attr B atk 2002 cd 1 hp 10951 def 840 end
+		end
+	floors
+		name 3F
+		monsters name Sapphire-Carbuncle attr B atk 3120 cd 2 hp 9450 def 140 end
+		monsters name Marine-Goblin attr B atk 4590 cd 4 hp 16800 def 140 end
+		monsters name Marine-Goblin attr B atk 4590 cd 4 hp 16800 def 140 end
+		monsters name Frost-Devil attr B atk 2002 cd 1 hp 10951 def 840 end
+		end
+	floors
+		name 4F
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		monsters name Aqua-Knight attr B atk 2858 cd 2 hp 14031 def 162 end
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		end
+	floors
+		name 5F
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		monsters name Frost-Devil attr B atk 2002 cd 1 hp 10951 def 840 end
+		monsters name White-Knight attr L atk 3012 cd 2 hp 14887 def 162 end
+		monsters name Aqua-Knight attr B atk 2858 cd 2 hp 14031 def 162 end
+		end
+	floors
+		name 6F
+		monsters name Ice-Ogre attr B atk 7837 cd 4 hp 35506 def 0 end
+		monsters name Ice-Ogre attr B atk 7837 cd 4 hp 35506 def 0 end
+		end
+	floors
+		name 7F
+		monsters name Aqua-Knight attr B atk 2858 cd 2 hp 14031 def 162 end
+		monsters name Sapphire-Carbuncle attr B atk 3120 cd 2 hp 9450 def 140 end
+		monsters name Sapphire-Carbuncle attr B atk 3120 cd 2 hp 9450 def 140 end
+		monsters name Frost-Devil attr B atk 2002 cd 1 hp 10951 def 840 end
+		end
+	floors
+		name 8F
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		monsters name White-Knight attr L atk 3012 cd 2 hp 14887 def 162 end
+		monsters name Marine-Goblin attr B atk 4590 cd 4 hp 16800 def 140 end
+		end
+	floors
+		name 9F
+		monsters name Mercury-Light-Carbuncle attr B atk 6708 cd 2 hp 223056 def 600 end
+		monsters name Sunlight-Carbuncle attr L atk 7125 cd 2 hp 250833 def 600 end
+		end
+	floors
+		name 10F
+		monsters name Neptune attr B atk 25440 cd 4 hp 61244 def 96000 end
+		end
+	end
+end

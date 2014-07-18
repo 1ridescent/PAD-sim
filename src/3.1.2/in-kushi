@@ -1,0 +1,76 @@
+team
+	members
+		name
+			kushinada
+		attr
+			G
+		hp
+			100
+		atk
+			50
+		rcv
+			10
+		skill
+			cd
+				3
+			end
+		leaderskill
+			options num_combos 3 multiplier 1.5 end
+			options num_combos 4 multiplier 2 end
+			options num_combos 5 multiplier 2.5 end
+			options num_combos 6 multiplier 3 end
+			options num_combos 7 multiplier 3.5 end
+			options num_combos 8 multiplier 4 end
+			options num_combos 9 multiplier 4.5 end
+			options num_combos 10 multiplier 5 end
+			options num_combos 11 multiplier 5.5 end
+			options num_combos 12 multiplier 6 end
+			options num_combos 13 multiplier 6.5 end
+			options num_combos 14 multiplier 7 end
+			options num_combos 15 multiplier 7.5 end
+			options num_combos 16 multiplier 8 end
+			options num_combos 17 multiplier 8.5 end
+			options num_combos 18 multiplier 9 end
+			options num_combos 19 multiplier 9.5 end
+			options num_combos 20 multiplier 10 end
+			end
+		end
+	end
+dungeon
+	floors
+		name
+			1F
+		monsters
+			name
+				flamie
+			attr
+				R
+			hp
+				1000
+			atk
+				10
+			end
+		monsters name bubblie attr B hp 1000 atk 10 end
+		monsters name woodsie attr G hp 1000 atk 10 end
+		monsters name shynee attr L hp 1000 atk 10 end
+		monsters name baddie attr D hp 1000 atk 10 end
+		end
+	floors
+		name
+			2F
+		monsters
+			name
+				mystic-mask
+			attr
+				L
+			hp
+				15
+			atk
+				50
+			def
+				100000
+			end
+		end
+	end
+end
+

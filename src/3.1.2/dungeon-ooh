@@ -1,0 +1,61 @@
+dungeon
+	floors
+		name 1F
+		monsters name Sapphire-Carbuncle attr B atk 3120 cd 2 hp 9450 def 140 end
+		monsters name Marine-Goblin attr B atk 4590 cd 4 hp 16800 def 140 end
+		end
+	floors
+		name 2F
+		monsters name Ice-Ogre attr B atk 7837 cd 4 hp 35506 def 0 end
+		monsters name Frost-Devil attr B atk 2002 cd 1 hp 10951 def 840 end
+		end
+	floors
+		name 3F
+		monsters name Sapphire-Carbuncle attr B atk 3120 cd 2 hp 9450 def 140 end
+		monsters name Marine-Goblin attr B atk 4590 cd 4 hp 16800 def 140 end
+		monsters name Marine-Goblin attr B atk 4590 cd 4 hp 16800 def 140 end
+		monsters name Frost-Devil attr B atk 2002 cd 1 hp 10951 def 840 end
+		end
+	floors
+		name 4F
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		monsters name Aqua-Knight attr B atk 2858 cd 2 hp 14031 def 162 end
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		end
+	floors
+		name 5F
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		monsters name Frost-Devil attr B atk 2002 cd 1 hp 10951 def 840 end
+		monsters name White-Knight attr L atk 3012 cd 2 hp 14887 def 162 end
+		monsters name Aqua-Knight attr B atk 2858 cd 2 hp 14031 def 162 end
+		end
+	floors
+		name 6F
+		monsters name Ice-Ogre attr B atk 7837 cd 4 hp 35506 def 0 end
+		monsters name Ice-Ogre attr B atk 7837 cd 4 hp 35506 def 0 end
+		end
+	floors
+		name 7F
+		monsters name Aqua-Knight attr B atk 2858 cd 2 hp 14031 def 162 end
+		monsters name Sapphire-Carbuncle attr B atk 3120 cd 2 hp 9450 def 140 end
+		monsters name Sapphire-Carbuncle attr B atk 3120 cd 2 hp 9450 def 140 end
+		monsters name Frost-Devil attr B atk 2002 cd 1 hp 10951 def 840 end
+		end
+	floors
+		name 8F
+		monsters name Harpie-Devil attr L atk 2053 cd 1 hp 11208 def 840 end
+		monsters name White-Knight attr L atk 3012 cd 2 hp 14887 def 162 end
+		monsters name Marine-Goblin attr B atk 4590 cd 4 hp 16800 def 140 end
+		end
+	floors
+		name 9F
+		monsters name Mercury-Light-Carbuncle attr B atk 6708 cd 2 hp 223056 def 600 end
+		monsters name Sunlight-Carbuncle attr L atk 7125 cd 2 hp 250833 def 600 end
+		end
+	floors
+		name 10F
+		monsters name Neptune attr B atk 25440 cd 4 hp 61244 def 96000 end
+		end
+	end
+end

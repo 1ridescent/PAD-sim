@@ -1,0 +1,3 @@
+implemented leader skills.
+
+implemented dungeon floors. normal (dungeon) version of game is almost complete. still need targeting and mass attacks. also dual-attribute teammates.

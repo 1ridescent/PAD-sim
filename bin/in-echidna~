@@ -1,0 +1,45 @@
+team
+	members
+		name
+			echidna
+		attr
+			R
+		hp
+			100
+		atk
+			50
+		rcv
+			50
+		skill
+			name
+				menace
+			enemy_status
+				delay
+					3
+			end
+		end
+	end
+dungeon
+	floors
+		name
+			1F
+		monsters
+			hp
+				100
+			atk
+				10
+			end
+		end
+	floors
+		name
+			2F
+		monsters
+			hp
+				200
+			atk
+				20
+			end
+		end
+	end
+end
+

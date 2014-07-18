@@ -1,0 +1,75 @@
+team
+	members
+		name F/L-Horus attr RL hp 2961 atk 1857 rcv 278
+		skill name Fire-Orb-Enhance cd 13 end
+		leaderskill
+			options colors RBGL multiplier 4 end
+			options colors RBGD multiplier 4 end
+			options colors RBLD multiplier 4 end
+			options colors RGLD multiplier 4 end
+			options colors BGLD multiplier 4 end
+			options colors RBGLD multiplier 5 end
+			end
+		end
+	members
+		name Valkyrie attr LG hp 2347 atk 1146 rcv 607
+		skill name Atk-Stance-L orb_change_from H orb_change_to L cd 8 end
+	members
+		name Duke-Vampire attr 
+	members
+		name F/F-Horus attr RR hp 3275 atk 1284 rcv 618
+		skill name Fire-Orb-Enhance cd 15 end
+		leaderskill
+			options colors RBGL multiplier 4 end
+			options colors RBGD multiplier 4 end
+			options colors RBLD multiplier 4 end
+			options colors RGLD multiplier 4 end
+			options colors BGLD multiplier 4 end
+			options colors RBGLD multiplier 5 end
+			end
+		end
+		
+	
+	members name lil-blue-dragon hp 100 atk 10 rcv 10 attr B end
+	members name lil-green-dragon hp 100 atk 10 rcv 10 attr G end
+	members name lil-white-dragon hp 100 atk 10 rcv 10 attr L end
+	members name lil-black-dragon hp 100 atk 10 rcv 10 attr D end
+	end
+dungeon
+	floors
+		name
+			1F
+		monsters
+			name
+				flamie
+			attr
+				R
+			hp
+				1000
+			atk
+				10
+			end
+		monsters name bubblie attr B hp 1000 atk 10 end
+		monsters name woodsie attr G hp 1000 atk 10 end
+		monsters name shynee attr L hp 1000 atk 10 end
+		monsters name baddie attr D hp 1000 atk 10 end
+		end
+	floors
+		name
+			2F
+		monsters
+			name
+				mystic-mask
+			attr
+				L
+			hp
+				15
+			atk
+				50
+			def
+				100000
+			end
+		end
+	end
+end
+

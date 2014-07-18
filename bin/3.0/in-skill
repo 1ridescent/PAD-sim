@@ -1,0 +1,43 @@
+team
+	members
+		name
+			lil-red-dragon
+		hp
+			100
+		atk
+			50
+		rcv
+			10
+		skill
+			name
+				heat-ball
+			atk_damage
+				100
+			atk_attr
+				R
+			cd
+				0
+			end
+		end
+	end
+dungeon
+	floors
+		name
+			1F
+		monsters
+			name
+				flamie
+			attr
+				R
+			hp
+				300
+			atk
+				10
+			end
+		monsters name bubblie attr B hp 302 atk 10 end
+		monsters name woodsie attr G hp 301 atk 10 end
+		monsters name shynee attr L hp 298 atk 10 end
+		monsters name baddie attr D hp 299 atk 10 end
+		end
+	end
+end

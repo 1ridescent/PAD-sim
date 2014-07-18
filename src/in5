@@ -1,0 +1,36 @@
+team
+	members
+		hp
+			100
+		atk
+			10
+		rcv
+			10
+		skill
+			gravity_damage
+				30
+			cd
+				0
+			end
+		end
+	end
+dungeon
+	floors
+		name
+			2F
+		monsters
+			name
+				neptune
+			attr
+				L
+			hp
+				10000
+			atk
+				50
+			def
+				100000
+			end
+		end
+	end
+end
+
